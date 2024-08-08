@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https:https://cloudvila.buzz/` + encodeURI(path as string)
+					`https://cloudvila.buzz/` + encodeURI(path as string)
 				}`,
 			},
 		};
